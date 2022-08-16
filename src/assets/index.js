@@ -23,8 +23,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import head1 from "./head1.jpg";
-import head2 from "./head2.jpg";
+import head2 from "./head1.jpg";
 import logo1 from "./logo_wisata.png";
 
 export {
@@ -53,7 +52,6 @@ export {
   people01,
   people02,
   people03,
-  head1,
   head2,
   logo1,
 };
