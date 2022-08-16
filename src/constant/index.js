@@ -6,8 +6,8 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "wisata",
+    title: "Wisata",
   },
   {
     id: "product",
@@ -19,24 +19,24 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const wisata = [
   {
-    id: "feature-1",
+    id: "wisata-1",
     icon: star,
-    title: "Rewards",
+    title: "Curug / Wisata Air Terjun",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Curug Batu Hideung, Curug Sawer, Curug Tujuh, Curug Manapa",
   },
   {
-    id: "feature-2",
-    icon: shield,
+    id: "wisata-2",
+    icon: star,
     title: "100% Secured",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: "feature-3",
-    icon: send,
+    id: "wisata-3",
+    icon: star,
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
