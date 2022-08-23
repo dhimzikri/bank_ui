@@ -132,7 +132,7 @@
 .container.container-contact {
   width: 58%;
   display: grid;
-  grid-template-columns: 30% 58%;
+  /* grid-template-columns: 30% 58% ; */
   gap: 12%;
 }
 

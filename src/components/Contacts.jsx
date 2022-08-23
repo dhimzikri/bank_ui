@@ -3,8 +3,10 @@ import "../index.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsInstagram } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
-import styles from "../style";
-
+import styles, { layout } from "../style";
+import { wisata2 } from "../assets";
+import emailjs from "@emailjs/browser";
+  
 const Contacts = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,13 +22,19 @@ const Contacts = () => {
   };
   return (
     <section id="contact">
-      <h2 className={`${styles.heading2}`}>Get in Touch</h2>
-      <p className="font-poppins font-medium text-dimWhite">Contact Me</p>
+      <h2
+        className={`${styles.heading2} flex justify-center items-center p-4 mt-4 gap-6`}
+      >
+        Get in Touch
+      </h2>
+      <p className="font-poppins font-medium text-dimWhite flex justify-center -mt-6 items-center">
+        Contact Me
+      </p>
 
-      <div className="container container-contact">
-        <div className="contact_options bg-emerald-800 rounded-2xl">
+      <div className="grid grid-cols-3 w-full h-auto gap-8 mt-4 ">
+        <div className="flex flex-col bg-emerald-800 rounded-2xl w-auto h-auto items-center justify-center">
           <article className="contact_option hover:bg-emerald-700 font-poppins font-medium">
-            <div className="flex flex-col items-center justify-center text-dimWhite">
+            <div className="flex flex-col items-center justify-center text-white">
               <HiOutlineMail className="text-3xl" />
               <h4>Email</h4>
               <h5>dschok182@gmail.com</h5>
@@ -41,7 +49,7 @@ const Contacts = () => {
             </div>
           </article>
           <article className="contact_option hover:bg-emerald-700 font-poppins font-medium">
-            <div className="flex flex-col items-center justify-center text-dimWhite">
+            <div className="flex flex-col items-center jusstify-center text-white">
               <BsInstagram className="contact_options-icon" />
               <h4>DM Instagram</h4>
               <h5>Dimas Zikri (dhimzikri)</h5>
@@ -56,7 +64,7 @@ const Contacts = () => {
             </div>
           </article>
           <article className="contact_option hover:bg-emerald-700 font-poppins font-medium">
-            <div className="flex flex-col items-center justify-center text-dimWhite">
+            <div className="flex flex-col items-center justify-center text-white">
               <BsWhatsapp className="contact_options-icon" />
               <h4>WhatsApp Me on</h4>
               <h5>085780457067 / 085885606896</h5>
@@ -72,10 +80,10 @@ const Contacts = () => {
           </article>
         </div>
         {/* END OF OPTIONS */}
-        <div className="font-poppins rounded-lg ">
+        <div className="gap-2 w-full h-full font-poppins rounded-lg">
           <form ref={form} onSubmit={sendEmail}>
             <input
-              className="bg-emerald-700 text-white"
+              className="bg-emerald-700 text-white w-auto h-auto"
               type="text"
               name="name"
               placeholder="Your Full Name"
@@ -102,6 +110,9 @@ const Contacts = () => {
               Send Message
             </button>
           </form>
+        </div>
+        <div className="w-[80%] h-full rounded-xl bg-emerald-700 flex items-center justify-center ">
+          <img src={wisata2} className="rounded-xl mt-1 ml-28" alt="" />
         </div>
       </div>
     </section>

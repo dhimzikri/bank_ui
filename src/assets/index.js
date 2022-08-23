@@ -29,6 +29,7 @@ import paket1 from "./paket1.jpg";
 import paket2 from "./paket2.jpg";
 import paket3 from "./paket3.jpeg";
 import paket4 from "./paket4.jpg";
+import wisata2 from "./wisata2.jpg";
 
 export {
   airbnb,
@@ -62,4 +63,5 @@ export {
   paket2,
   paket3,
   paket4,
+  wisata2,
 };
