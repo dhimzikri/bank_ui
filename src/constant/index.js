@@ -10,12 +10,16 @@ export const navLinks = [
     title: "Wisata",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+  {
+    id: "booking",
+    title: "Booking",
   },
 ];
 
@@ -201,7 +205,7 @@ export const listPaket = [
     id: "1",
     name: "Halimun Adventure Journey",
     img: paket1,
-    desc:"merupakan tindakan perjalanan berpetualang dan atau kegiatan berwisata yang dilakukan dalam kawasan Taman Nasional Gunung Halimun Salak guna menikmati keindahan bentang alam serta atraksinya dengan segala fenomena estetika yang unik dan sifatnya menarik serta tidak biasa.",
+    desc:"Merupakan tindakan perjalanan berpetualang dan atau kegiatan berwisata yang dilakukan dalam kawasan Taman Nasional Gunung Halimun Salak guna menikmati keindahan bentang alam serta atraksinya dengan segala fenomena estetika yang unik dan sifatnya menarik serta tidak biasa.",
   },
   {
     id: "2",
@@ -219,6 +223,6 @@ export const listPaket = [
     id: "4",
     name: "Paket Wildlife and Nature",
     img: paket4,
-    desc: "merupakan wisata petualangan guna merasakan misteri terdalam keindahan hutan Taman Nasional Halimun Salak dengan keragaman pesona flora faunanya yang liar pun lanskap alamnya . Jika beruntung, anda akan melihat elang Jawa terbang melintas batas angkasa raya atau seekor macan yang berjalan disela pepohonan.",
+    desc: "Merupakan wisata petualangan guna merasakan misteri terdalam keindahan hutan Taman Nasional Halimun Salak dengan keragaman pesona flora faunanya yang liar pun lanskap alamnya . Jika beruntung, anda akan melihat elang Jawa terbang melintas batas angkasa raya atau seekor macan yang berjalan disela pepohonan.",
   },
 ]
