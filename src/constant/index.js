@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { paket1, paket2, paket3, paket4, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -30,16 +30,16 @@ export const wisata = [
   {
     id: "wisata-2",
     icon: star,
-    title: "100% Secured",
+    title: "Arum Jeram",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Nikmati keindahan bentang alam hutan Halimun sepanjang track tubing river dan kejerniaan air sungai Cidurian yang berhulu di Gunung Kendeng",
   },
   {
     id: "wisata-3",
     icon: star,
-    title: "Balance Transfer",
+    title: "Kebersihan Alam",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Kejerniaan air sungai Cidurian yang berhulu di Gunung Kendeng (salah satu gunung yang masih termasuk gugusan Taman Nasional Gunung Halimun Salak)  masih terjaga dengan baik.",
   },
 ];
 
@@ -195,3 +195,30 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const listPaket = [
+  {
+    id: "1",
+    name: "Halimun Adventure Journey",
+    img: paket1,
+    desc:"merupakan tindakan perjalanan berpetualang dan atau kegiatan berwisata yang dilakukan dalam kawasan Taman Nasional Gunung Halimun Salak guna menikmati keindahan bentang alam serta atraksinya dengan segala fenomena estetika yang unik dan sifatnya menarik serta tidak biasa.",
+  },
+  {
+    id: "2",
+    name: "Halimun Lembur Experience",
+    img: paket2,
+    desc: "Adalah kegiatan  wisata yang seiring mendapatkan pengetahuan dan atau keterampilan yang diperoleh dari interaksi secara langsung antara wisatawan dengan masyarakat lokal dalam sebuah peristiwa bertani, berkerajinan dan berkesenian di kampung dalam gugusan TNGHS.",
+  },
+  {
+    id: "3",
+    name: "Paket Camping",
+    img: paket3,
+    desc: "Camping merupakan kegiatan rekreasi di luar ruang dan tidur menggunakan tenda dengan beragam aktivitas utamanya seperti Gathering, Outing pun Camping ceria. Dengan fasilitas yang unik dan menarik, tenda yang biasa dipasang diatas tanah, di Wisata Halimun kini di pasang diantara pepohonan hutan halimun yang populer dengan sebutan flying camp.",
+  },
+  {
+    id: "4",
+    name: "Paket Wildlife and Nature",
+    img: paket4,
+    desc: "merupakan wisata petualangan guna merasakan misteri terdalam keindahan hutan Taman Nasional Halimun Salak dengan keragaman pesona flora faunanya yang liar pun lanskap alamnya . Jika beruntung, anda akan melihat elang Jawa terbang melintas batas angkasa raya atau seekor macan yang berjalan disela pepohonan.",
+  },
+]

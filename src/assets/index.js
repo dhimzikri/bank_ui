@@ -25,6 +25,10 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import head2 from "./head1.jpg";
 import logo1 from "./logo_wisata.png";
+import paket1 from "./paket1.jpg";
+import paket2 from "./paket2.jpg";
+import paket3 from "./paket3.jpeg";
+import paket4 from "./paket4.jpg";
 
 export {
   airbnb,
@@ -54,4 +58,8 @@ export {
   people03,
   head2,
   logo1,
+  paket1,
+  paket2,
+  paket3,
+  paket4,
 };
