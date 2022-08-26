@@ -38,14 +38,14 @@ const Contacts = () => {
               <HiOutlineMail className="text-3xl" />
               <h4>Email</h4>
               <h5>dschok182@gmail.com</h5>
-              <button
+              <a
                 href="mailto:dschok182@gmail.com"
                 target="_blank"
                 type="button"
                 className={`text-black p-3 font-poppins text-sm text-[18px] bg-blue-gradient rounded-[10px] outline-none ${styles}`}
               >
                 Send a Message
-              </button>
+              </a>
             </div>
           </article>
           <article className="contact_option hover:bg-emerald-700 font-poppins font-medium">
@@ -53,14 +53,14 @@ const Contacts = () => {
               <BsInstagram className="contact_options-icon" />
               <h4>DM Instagram</h4>
               <h5>Dimas Zikri (dhimzikri)</h5>
-              <button
+              <a
                 href="http://intagram.com/dhimzikri"
                 target="_blank"
                 type="button"
                 className={`p-3 font-poppins text-sm text-[18px] text-black bg-blue-gradient rounded-[10px] outline-none ${styles}`}
               >
                 Send a Message
-              </button>
+              </a>
             </div>
           </article>
           <article className="contact_option hover:bg-emerald-700 font-poppins font-medium">
@@ -68,14 +68,14 @@ const Contacts = () => {
               <BsWhatsapp className="contact_options-icon" />
               <h4>WhatsApp Me on</h4>
               <h5>085780457067 / 085885606896</h5>
-              <button
-                href="http://intagram.com/dhimzikri"
+              <a
+                href="https://api.whatsapp.com/send?phone=085885606896"
                 target="_blank"
                 type="button"
                 className={`p-3 font-poppins text-sm text-[18px] text-black bg-blue-gradient rounded-[10px] outline-none ${styles}`}
               >
                 Send a Message
-              </button>
+              </a>
             </div>
           </article>
         </div>

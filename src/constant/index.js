@@ -10,10 +10,6 @@ export const navLinks = [
     title: "Wisata",
   },
   {
-    id: "clients",
-    title: "Clients",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
